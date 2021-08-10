@@ -1,0 +1,64 @@
+.body {
+  font-family: Verdana;
+  background: url('https://simpletransformers.ai/assets/images/home-1.jpg') center center/cover no-repeat;
+  height: 88.8vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: insert 0 0 0 1000px rgba(0,0,0,0.2);
+  object-fit: contain;
+}
+
+.register {
+  margin: auto;
+  width: clamp(0px, 70%, 400px);
+  height: 80%;
+  border-radius: 20px;
+  background: white;
+}
+
+.register h3 {
+  color: white;
+  background: #3c374d;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+  font-size: clamp(8px, 5vw, 20px);
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+  background-color: #e2f8ff;
+  padding: 10px;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+  transition-duration: 0.3s;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  font-size: clamp(8px, 4vw, 15px);
+}
+
+.submit {
+  width: 50%;
+  margin-top: 20px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 20px;
+  border: none;
+  font-size: clamp(8px, 4vw, 15px);
+}
+
+.submit {
+  transition-duration: 0.3s;
+}
+
+.submit:hover {
+  background-color: #31b060;
+  color: white;
+  cursor: pointer;
+}
+
+td {
+  padding: 0px 0px 20px 0px;
+}
